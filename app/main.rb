@@ -7,6 +7,6 @@ def main(argv)
 
   argv.each_index do |i|
     v = argv[i]
-    p "Hello #{v}!"
+    puts "Hello #{v}!"
   end
 end
